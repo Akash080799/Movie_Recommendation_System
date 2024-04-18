@@ -3,6 +3,8 @@ import pandas as pd
 import pickle
 import numpy as np
 
+st.set_page_config(page_title="Movie Recommender System")
+
 @st.cache_data                                  #Caching the Data to avoid continous loading.
 def load_required_data():
     with open("Popular_movies.pkl","rb") as f:
