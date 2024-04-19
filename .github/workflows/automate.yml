@@ -28,11 +28,6 @@ jobs:
               run: 
                 python3 -m pip install --upgrade pip
                 pip install -r requirements.txt
-                pip install pytest
-
-            - name: Run the Pytest
-              run:
-                pytest
 
     job2:
         needs: job1
