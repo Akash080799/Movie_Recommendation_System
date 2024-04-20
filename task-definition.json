@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424443102613:task-definition/recommendationtask:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424443102613:task-definition/recommendationtask:6",
     "containerDefinitions": [
         {
             "name": "recommendationcontainer",
@@ -36,7 +36,7 @@
     "family": "recommendationtask",
     "executionRoleArn": "arn:aws:iam::424443102613:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -79,7 +79,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-19T17:07:55.594Z",
+    "registeredAt": "2024-04-20T14:37:20.454Z",
     "registeredBy": "arn:aws:sts::424443102613:federated-user/scalerb6awsmarchuser37",
     "tags": []
 }
