@@ -6,6 +6,8 @@ RUN python3 -m pip install --upgrade pip
 
 COPY requirements.txt requirements.txt
 
+ADD artifacts artifacts
+
 COPY . .
 
 RUN pip3 install -r requirements.txt

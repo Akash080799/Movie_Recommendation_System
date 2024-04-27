@@ -73,7 +73,7 @@ def displayResult(error,results):                   #Function to display the gen
 
 @st.cache_data                                  #Caching the Data to avoid continous loading.
 def load_required_data():
-    with open("D:artifacts/Popular_movies.pkl","rb") as f:
+    with open("artifacts/Popular_movies.pkl","rb") as f:
         popular_movies=pickle.load(f)
 
     with open("artifacts/Active_user_indices.pkl","rb") as f:
